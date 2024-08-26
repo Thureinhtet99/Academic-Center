@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arimo", sans-serif;
+}
+
+:root {
+    --primaryColor: #0275d8;
+    --dashboardContainer: #f7f7f7;
+    --bgColor: #f7f7f7;
+    --categoryColor: #52b788;
+    --categoryBgColor: #d8f3dc;
+    --naviBtnHover: #dee2e6;
+    --courseColor: #468faf;
+    --courseBgColor: #a9d6e5;
+    --userColor: #a4133c;
+    --userBgColor: #ffccd5;
+    --authorColor: #fcd2af;
+    --authorBgColor: #f8edeb;
+    --userTitles: #e5e5e5;
+    --activeStatus: #b5e48c;
+    --activeStatusColor: #76c893;
+    --genderSelectedBgColor: #d2e2fc;
+    --hoverColor: #edede9;
+    --lessonBtnBgColor: #caf0f8;
+}
+
+/* Dark mode */
+.darkTheme {
+    --bgColor: #000106;
+}
+
+/* Register */
+.already-have-acc:hover {
+    text-decoration: underline !important;
+}
+
+/* Login */
+.google-login {
+    transition: all 0.1s ease !important;
+}
+.google-login:active {
+    transform: scale(0.9);
+}
+.login-page-user-input-email {
+    width: 83.5%;
+}
+.login-page-user-input {
+    width: 89%;
+}
+.forgot-password:hover {
+    text-decoration: underline !important;
+}
+
+/* Auth master*/
+.carousel-auth-img {
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Master */
+.navigate-panel {
+    min-height: 90vh !important;
+}
+.navigations {
+    min-height: 90vh;
+}
+.navigations button {
+    padding: 8px 0 8px 0;
+    margin: 5px 0 5px 0;
+    background-color: var(--navigationsColor);
+    border: none;
+}
+.navigations button:hover {
+    color: black;
+    background-color: var(--naviBtnHover);
+}
+.main-container {
+    min-height: 100vh !important;
+    background-color: var(--dashboardContainer);
+}
+
+/* Dashboard */
+.dashboardIndex {
+    height: 90vh !important;
+}
+.users-switch:hover,
+.paid-users-switch:hover {
+    border-bottom: 2px solid var(--primaryColor) !important;
+}
+.userImg {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+}
+.category-border {
+    border-left: 5px solid var(--categoryColor);
+}
+.course-border {
+    border-left: 5px solid var(--courseColor);
+}
+.user-border {
+    border-left: 5px solid var(--userColor);
+}
+.card-category {
+    color: var(--categoryColor);
+    background-color: var(--categoryBgColor);
+}
+.card-course {
+    color: var(--courseColor);
+    background-color: var(--courseBgColor);
+}
+.categoryColor {
+    color: var(--categoryColor);
+}
+.card-user {
+    color: var(--userColor);
+    background-color: var(--userBgColor);
+}
+.author-border {
+    border-left: 5px solid var(--authorColor);
+}
+.author-color {
+    color: var(--authorColor);
+    background-color: var(--authorBgColor);
+}
+.author-img {
+    width: 65px;
+    height: 65px;
+}
+.view-all-authors:hover {
+    color: black !important;
+    text-decoration: underline !important;
+}
+
+/* Category */
+.category-index {
+    height: 90vh !important;
+}
+.categoryImg {
+    width: 80%;
+    height: 7rem;
+}
+.addCategoryBtn:hover {
+    color: var(--primaryColor) !important;
+}
+
+/* Course */
+.courseOverFlow {
+    height: 70vh;
+}
+.showCourseContainer {
+    height: 90vh;
+}
+.courseDescription {
+    height: 160px;
+}
+.courseComments {
+    height: 47vh;
+}
+.editCourseContainer {
+    height: 90vh;
+}
+.courseShowImg {
+    width: 100%;
+    height: 250px;
+}
+.editCourseComments {
+    height: 51vh;
+}
+
+/* Lesson */
+.lessonContainer {
+    height: 90vh;
+}
+.lessonVideos {
+    width: 100%;
+    height: 133px;
+}
+
+.arrowUp i,
+.arrowUp span {
+    color: var(--cardPercentageUp);
+}
+.arrowDown i,
+.arrowDown span {
+    color: var(--cardPercentageDown);
+}
+.usersBox {
+    color: var(--userColor) !important;
+}
+.userCounts {
+    font-size: 0.9rem;
+}
+.userTitles {
+    background-color: var(--userTitles);
+}
+.userIndexImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.userInfos {
+    font-size: 0.9rem;
+}
+.activeStatus {
+    color: var(--activeStatusColor);
+    background-color: var(--activeStatus);
+}
+.userShowImg {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.userListBox {
+    height: 65vh;
+}
+.card {
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.03);
+}
+.cardImg {
+    width: 70px;
+    height: 70px;
+}
+
+.navbar {
+    position: fixed;
+}
+.courseImg {
+    width: 100%;
+    height: 14rem;
+    object-fit: cover;
+}
+/* .overflow-auto {
+    height: 590px;
+} */
+.categoryOption {
+    height: 10px;
+}
+.dashboardUserImg {
+    width: 60px;
+    height: 60px;
+}
+.dashboardUserTable {
+    height: 450px;
+}
+.dashboardAuthorList {
+    height: 58.8vh;
+}
+/* .categoryShowImg{
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
+} */
+
+.authorInformation {
+    height: 110px;
+}
+
+.profileImg {
+    object-fit: cover;
+    width: 100%;
+    height: 230px;
+}
+.lessonVideo {
+    width: 70%;
+}
+.courseShowVideo {
+    width: 20%;
+}
+
+/* carousel */
+.landingCarousalImg {
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.landingCarousalFirstTxt,
+.landingCarousalSecondTxt,
+.landingCarousalThird {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+    letter-spacing: 1px;
+}
+.landingCarousalFirstTxt {
+    left: 34%;
+    top: 35%;
+    font-size: 0.7rem !important;
+}
+.landingCarousalSecondTxt {
+    left: 25%;
+    top: 60%;
+}
+.imgBlur::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+.carousel-control-prev {
+    z-index: 5;
+}
+.carousel-control-next {
+    z-index: 5;
+}
+.fa-magnifying-glass:hover {
+    color: var(--primaryColor) !important;
+}
+
+/* Carousel */
+
+.carouselImageContainer {
+    max-height: 49vh;
+}
+.carouselImg {
+    object-fit: cover;
+    width: 100%;
+    height: 130px;
+}
+.carouselDeletBtn {
+    top: 6% !important;
+    left: 80%;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .forgot-password,
+    .remember-me {
+        font-size: 0.9rem !important;
+    }
+    .academicTitle {
+        display: none;
+    }
+    .navigations span {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigations i {
+        margin-left: 60px;
+    }
+}

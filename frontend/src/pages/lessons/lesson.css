@@ -1,0 +1,11 @@
+.lessonList {
+  border-right: 4px solid #6c757d;
+}
+
+.lessonBox:hover {
+  background-color: #f7f7f8 !important;
+}
+
+.authorName:hover {
+  text-decoration: none;
+}

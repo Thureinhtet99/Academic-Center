@@ -1,0 +1,23 @@
+header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.userImg {
+  width: 3.6rem;
+  height: 3.6rem;
+  border-radius: 50%;
+}
+.currentNavLink {
+  border-bottom: 3px solid #007bff !important;
+  color: #007bff !important;
+}
+
+.currentAuthBtn {
+  background-color: #e9ecef !important;
+}
+
+.authBtn:hover {
+  background-color: #dee2e6 !important;
+}

@@ -1,0 +1,13 @@
+.deleteReviewBtn {
+  cursor: wait !important;
+}
+.videoList:hover {
+  color: #007bff !important;
+}
+.reviewLikeBtn {
+  transition: all 0.08s ease-in-out;
+}
+
+.reviewLikeBtn:active {
+  transform: scale(0.9);
+}

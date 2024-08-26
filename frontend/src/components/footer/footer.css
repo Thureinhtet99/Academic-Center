@@ -1,0 +1,14 @@
+.footerSection {
+  background: rgb(180, 180, 180);
+  background: linear-gradient(
+    100deg,
+    rgba(180, 180, 180, 1) 40%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+.socialIcon:hover {
+  color: #007bff !important;
+}
+.navigate:hover {
+  color: #007bff !important;
+}

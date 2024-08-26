@@ -1,0 +1,6 @@
+const ACTION_TYPES = {
+    USER_DATA: "USER_DATA",
+    USER_TOKEN: "USER_TOKEN"
+}
+
+export default ACTION_TYPES
